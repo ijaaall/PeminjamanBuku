@@ -1,0 +1,368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\peminjamanbuku\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\peminjamanbuku\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\peminjamanbuku\\peminjaman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\peminjaman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\peminjaman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\peminjaman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\peminjamanbuku\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\migrations\\20261013133511_addsessionlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\migrations\\20261013133511_addsessionlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\models\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\models\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\models\\peminjam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\models\\peminjam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\models\\buku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\models\\buku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\peminjaman.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\peminjaman.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\models\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\models\\kategori.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\migrations\\20261010070602_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\migrations\\20261010070602_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\migrations\\20261012095720_initialcreatee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\migrations\\20261012095720_initialcreatee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|d:\\documents\\my coding\\c# dekstop\\peminjamanbuku\\peminjamanbuku\\migrations\\20261013134848_createlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EFA6002-6414-4614-B8FB-6E4CE69AE4AD}|PeminjamanBuku\\PeminjamanBuku.csproj|solutionrelative:peminjamanbuku\\migrations\\20261013134848_createlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Dashboard.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Dashboard.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Dashboard.cs [Design]",
+              "RelativeToolTip": "PeminjamanBuku\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T14:02:24.319Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Dashboard.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Dashboard.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Dashboard.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Dashboard.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T14:03:30.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\AdminForm.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\AdminForm.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\AdminForm.cs [Design]",
+              "RelativeToolTip": "PeminjamanBuku\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:44:46.895Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Peminjaman.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Peminjaman.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Peminjaman.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Peminjaman.cs [Design]",
+              "RelativeToolTip": "PeminjamanBuku\\Peminjaman.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:17:16.472Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Peminjaman.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Peminjaman.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Peminjaman.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Peminjaman.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Peminjaman.cs",
+              "ViewState": "AgIAALsBAAAAAAAAAADwvxUCAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:19:14.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Login.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Login.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Login.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Login.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:39:04.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Login.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Login.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Login.cs [Design]",
+              "RelativeToolTip": "PeminjamanBuku\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:37:18.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Program.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Program.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Program.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:39:23.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T06:22:33.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20261013134848_Createlogin.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261013134848_Createlogin.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Migrations\\20261013134848_Createlogin.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261013134848_Createlogin.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Migrations\\20261013134848_Createlogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:48:49.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20261013133511_AddSessionLogin.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261013133511_AddSessionLogin.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Migrations\\20261013133511_AddSessionLogin.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261013133511_AddSessionLogin.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Migrations\\20261013133511_AddSessionLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:35:12.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Session.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Models\\Session.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Session.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Models\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:33:06.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Models\\Role.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Role.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:30:31.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Operator.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Operator.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Models\\Operator.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Operator.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Models\\Operator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:28:56.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20261012095720_InitialCreatee.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261012095720_InitialCreatee.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Migrations\\20261012095720_InitialCreatee.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261012095720_InitialCreatee.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Migrations\\20261012095720_InitialCreatee.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T09:57:21.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Buku.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Buku.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Models\\Buku.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Buku.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Models\\Buku.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T06:23:42.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Peminjam.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Peminjam.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Models\\Peminjam.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Peminjam.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Models\\Peminjam.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T06:23:29.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Peminjaman.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Peminjaman.Designer.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Peminjaman.Designer.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Peminjaman.Designer.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Peminjaman.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:44:44.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20261010070602_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261010070602_InitialCreate.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Migrations\\20261010070602_InitialCreate.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Migrations\\20261010070602_InitialCreate.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Migrations\\20261010070602_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:06:03.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Kategori.cs",
+              "DocumentMoniker": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Kategori.cs",
+              "RelativeDocumentMoniker": "PeminjamanBuku\\Models\\Kategori.cs",
+              "ToolTip": "D:\\Documents\\My Coding\\C# Dekstop\\PeminjamanBuku\\PeminjamanBuku\\Models\\Kategori.cs",
+              "RelativeToolTip": "PeminjamanBuku\\Models\\Kategori.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T06:41:28.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
