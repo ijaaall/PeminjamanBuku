@@ -13,5 +13,14 @@
     <Compile Update="Peminjaman.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UCAnggota.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCBuku.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCPetugas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

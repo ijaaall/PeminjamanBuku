@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeminjamanBuku")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+465d5cf041d5617d9caf172da7201d1ff21875c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeminjamanBuku")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeminjamanBuku")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

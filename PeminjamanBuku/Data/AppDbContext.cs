@@ -17,8 +17,10 @@ namespace PeminjamanBuku.Data
         }
 
         public DbSet<Buku> Bukus { get; set; }
+        public DbSet<Anggota> Anggotas { get; set; }
+        public DbSet<Petugas> Petugas{ get; set; }
         public DbSet<Peminjam> Peminjams { get; set; }
-        public DbSet<Kategori> Kategoris { get; set; }
+        public DbSet<Pengembalian> Pengembalians { get; set; }
         public DbSet<Operator> Operators { get; set; }
         public DbSet<Role> Roles { get; set; }
 

@@ -9,21 +9,34 @@ using System.Threading.Tasks;
 
 namespace PeminjamanBuku.Models
 {
+    public enum Status
+    { 
+        DiPinjam = 1,
+        DiKembalikan = 2
+    }
     public class Peminjam
     {
         [Key]
         public int PeminjamId { get; set; }
 
         [Required]
-        [StringLength(255)]
-        public string NamaPeminjam { get; set; }
-        public string Status { get; set; }
+        public DateTime TanggalPinjam { get; set; }
 
         [Required]
-        public int BukuId { get; set; }
+        public DateTime TanggalHarusKembali { get; set; }
+
+        [ForeignKey("AnggotaId")]
+        public Anggota Anggota { get; set; }
+
         [ForeignKey("BukuId")]
         public Buku Buku { get; set; }
 
-        //public ICollection<Buku> Bukus { get; set; }
+        [ForeignKey("PetugasId")]
+        public Petugas Petugas { get; set; }
+
+        [Required]
+        public Status Status { get; set; }
+
+        public List<Pengembalian> Pengembalians { get; set; } = new List<Pengembalian>();
     }
 }

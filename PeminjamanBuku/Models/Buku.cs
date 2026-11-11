@@ -15,19 +15,21 @@ namespace PeminjamanBuku.Models
         public int BukuId { get; set; }
 
         [Required]
-        public string JudulBuku { get; set; }
+        [StringLength(20)]
+        public string KodeBuku { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(150)]
+        public string JudulBuku { get; set; } = string.Empty;
 
         [Required]
         [StringLength(255)]
-        public string Penulis { get; set; }
+        public string Penulis { get; set; } = string.Empty;
 
-        public int KategoriId { get; set; }
+        [Required]
+        public int Stok { get; set; }
 
-        [ForeignKey("KategoriId")]
-        public Kategori Kategori { get; set; }
-
-        public ICollection<Peminjam> Peminjams { get; set; }
-        //public List<Peminjam> Peminjams { get; set; } = new List<Peminjam>();
+        public List<Peminjam> Peminjams { get; set; } = new List<Peminjam>();
 
     }
 }

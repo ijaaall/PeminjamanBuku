@@ -122,3 +122,4 @@ D:\Documents\My Coding\C# Dekstop\PeminjamanBuku\PeminjamanBuku\obj\Debug\net8.0
 D:\Documents\My Coding\C# Dekstop\PeminjamanBuku\PeminjamanBuku\obj\Debug\net8.0-windows\PeminjamanBuku.AdminForm.resources
 D:\Documents\My Coding\C# Dekstop\PeminjamanBuku\PeminjamanBuku\obj\Debug\net8.0-windows\PeminjamanBuku.Login.resources
 D:\Documents\My Coding\C# Dekstop\PeminjamanBuku\PeminjamanBuku\obj\Debug\net8.0-windows\PeminjamanBuku.Dashboard.resources
+D:\Documents\My Coding\C# Dekstop\PeminjamanBuku\PeminjamanBuku\obj\Debug\net8.0-windows\PeminjamanBuku.sourcelink.json
