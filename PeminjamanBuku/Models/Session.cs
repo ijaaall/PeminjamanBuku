@@ -8,9 +8,10 @@ namespace PeminjamanBuku.Models
 {
     public class Session
     {
-        public static int OperatorId { get; set; }
+        public static int PetugasId { get; set; }
+        public static string NamaPetugas { get; set; }
         public static string Username { get; set; }
         public static string Password { get; set; }
-        public static string Role { get; set; }
+        public static string Jabatan { get; set; }
     }
 }

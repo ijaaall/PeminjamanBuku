@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PeminjamanBuku.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,8 +20,34 @@ namespace PeminjamanBuku
 
         private async void btnPinjam_Click(object sender, EventArgs e)
         {
-            new Peminjaman().Show();
-            this.Hide();
+
+        }
+
+        private void loadControl(UserControl uc)
+        {
+            content.Controls.Clear();
+            uc.Dock = DockStyle.Fill;
+            content.Controls.Add(uc);
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            lblNama.Text += "" + Session.NamaPetugas;
+        }
+
+        private void btnBuku_Click(object sender, EventArgs e)
+        {
+            loadControl(new UCBuku());
+        }
+
+        private void btnAnggota_Click(object sender, EventArgs e)
+        {
+            loadControl(new UCAnggota());
+        }
+
+        private void btnPetugas_Click(object sender, EventArgs e)
+        {
+            loadControl(new UCPetugas());
         }
     }
 }
