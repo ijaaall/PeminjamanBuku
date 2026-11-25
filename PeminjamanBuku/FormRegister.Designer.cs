@@ -142,7 +142,7 @@
             // cbJabatan
             // 
             cbJabatan.FormattingEnabled = true;
-            cbJabatan.Items.AddRange(new object[] { "Kepala Perpustakaan", "Staff", "Perpustakawan" });
+            cbJabatan.Items.AddRange(new object[] { "Admin", "User" });
             cbJabatan.Location = new Point(162, 298);
             cbJabatan.Name = "cbJabatan";
             cbJabatan.Size = new Size(274, 33);

@@ -110,7 +110,7 @@
             label4.TabIndex = 7;
             label4.Text = "Belum Punya Akun?";
             // 
-            // Login
+            // FormLogin
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -123,9 +123,10 @@
             Controls.Add(txtUsername);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Login";
+            Name = "FormLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += FormLogin_Load;
             ResumeLayout(false);
             PerformLayout();
         }

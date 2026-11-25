@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            btnPengembalian = new Button();
-            btnPeminjaman = new Button();
             btnPetugas = new Button();
             label1 = new Label();
             btnAnggota = new Button();
@@ -41,14 +39,14 @@
             lblNama = new Label();
             label4 = new Label();
             label2 = new Label();
-            btnLogOut = new Button();
+            btnPengembalian = new Button();
+            btnPeminjaman = new Button();
             groupBox1.SuspendLayout();
             content.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(btnLogOut);
             groupBox1.Controls.Add(btnPengembalian);
             groupBox1.Controls.Add(btnPeminjaman);
             groupBox1.Controls.Add(btnPetugas);
@@ -60,24 +58,6 @@
             groupBox1.Size = new Size(182, 601);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
-            // 
-            // btnPengembalian
-            // 
-            btnPengembalian.Location = new Point(9, 311);
-            btnPengembalian.Name = "btnPengembalian";
-            btnPengembalian.Size = new Size(157, 40);
-            btnPengembalian.TabIndex = 5;
-            btnPengembalian.Text = "Pengembalian";
-            btnPengembalian.UseVisualStyleBackColor = true;
-            // 
-            // btnPeminjaman
-            // 
-            btnPeminjaman.Location = new Point(9, 251);
-            btnPeminjaman.Name = "btnPeminjaman";
-            btnPeminjaman.Size = new Size(157, 40);
-            btnPeminjaman.TabIndex = 4;
-            btnPeminjaman.Text = "Peminjaman";
-            btnPeminjaman.UseVisualStyleBackColor = true;
             // 
             // btnPetugas
             // 
@@ -179,15 +159,23 @@
             label2.TabIndex = 0;
             label2.Text = "SELAMAT DATANG";
             // 
-            // btnLogOut
+            // btnPengembalian
             // 
-            btnLogOut.Location = new Point(30, 549);
-            btnLogOut.Name = "btnLogOut";
-            btnLogOut.Size = new Size(112, 34);
-            btnLogOut.TabIndex = 6;
-            btnLogOut.Text = "Log Out";
-            btnLogOut.UseVisualStyleBackColor = true;
-            btnLogOut.Click += this.btnLogOut_Click_1;
+            btnPengembalian.Location = new Point(9, 311);
+            btnPengembalian.Name = "btnPengembalian";
+            btnPengembalian.Size = new Size(157, 40);
+            btnPengembalian.TabIndex = 5;
+            btnPengembalian.Text = "Pengembalian";
+            btnPengembalian.UseVisualStyleBackColor = true;
+            // 
+            // btnPeminjaman
+            // 
+            btnPeminjaman.Location = new Point(9, 251);
+            btnPeminjaman.Name = "btnPeminjaman";
+            btnPeminjaman.Size = new Size(157, 40);
+            btnPeminjaman.TabIndex = 4;
+            btnPeminjaman.Text = "Peminjaman";
+            btnPeminjaman.UseVisualStyleBackColor = true;
             // 
             // Dashboard
             // 
@@ -211,8 +199,6 @@
 
         private GroupBox groupBox1;
         private Button btnBuku;
-        private Button btnPengembalian;
-        private Button btnPeminjaman;
         private Button btnPetugas;
         private Label label1;
         private Button btnAnggota;
@@ -222,6 +208,7 @@
         private Label label5;
         private Label label3;
         private Label lblNama;
-        private Button btnLogOut;
+        private Button btnPengembalian;
+        private Button btnPeminjaman;
     }
 }

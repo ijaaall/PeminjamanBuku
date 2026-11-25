@@ -41,14 +41,16 @@ namespace PeminjamanBuku
                         Session.Password = login.Password;
                         Session.Jabatan = login.Jabatan;
 
-                        new Dashboard().Show();
-                        this.Hide();
-
-                        //if (login.Jabatan.ToLower() == "kepala perpustakaan")
-                        //{
-                        //    new Dashboard().Show();
-                        //    this.Hide();
-                        //}
+                        if (login.Jabatan.ToLower() == "admin")
+                        {
+                            new Dashboard().Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            new DashboardUser().Show();
+                            this.Hide();
+                        }
                     }
                     else
                     {
@@ -73,6 +75,11 @@ namespace PeminjamanBuku
         {
             new FormRegister().Show();
             this.Hide();
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
