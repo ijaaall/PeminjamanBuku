@@ -35,6 +35,32 @@ namespace PeminjamanBuku
             }
         }
 
+        private bool validate()
+        {
+            errorProviderPetugas.Clear();
+            if (string.IsNullOrWhiteSpace(txtNamaPetugas.Text))
+            {
+                errorProviderPetugas.SetError(txtNamaPetugas,"Nama Petugas tidak boleh kosong");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtUsername.Text))
+            {
+                errorProviderPetugas.SetError(txtUsername,"Username tidak boleh kosong");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtPassword.Text))
+            {
+                errorProviderPetugas.SetError(txtPassword,"Password tidak boleh kosong");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtJabatan.Text))
+            {
+                errorProviderPetugas.SetError(txtJabatan,"Jabatan tidak boleh kosong");
+                return false;
+            }
+            return true;
+        }
+
         private void clear()
         {
             txtNamaPetugas.Text = "";
@@ -45,6 +71,8 @@ namespace PeminjamanBuku
 
         private async void btnSimpan_Click(object sender, EventArgs e)
         {
+            if (!validate()) return;
+
             using (var context = new AppDbContext())
             {
                 var petugas = new Petugas
@@ -87,6 +115,8 @@ namespace PeminjamanBuku
 
         private async void btnUpdate_Click(object sender, EventArgs e)
         {
+            if (!validate()) return;
+
             using (var context = new AppDbContext())
             {
                 if (dgvPetugas.CurrentRow == null)
@@ -125,6 +155,8 @@ namespace PeminjamanBuku
 
         private async void btnHapus_Click(object sender, EventArgs e)
         {
+            if (!validate()) return;
+
             using (var context = new AppDbContext())
             {
                 if (dgvPetugas.CurrentRow == null)

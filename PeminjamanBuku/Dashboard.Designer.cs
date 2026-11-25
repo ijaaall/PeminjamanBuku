@@ -41,12 +41,14 @@
             lblNama = new Label();
             label4 = new Label();
             label2 = new Label();
+            btnLogOut = new Button();
             groupBox1.SuspendLayout();
             content.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(btnLogOut);
             groupBox1.Controls.Add(btnPengembalian);
             groupBox1.Controls.Add(btnPeminjaman);
             groupBox1.Controls.Add(btnPetugas);
@@ -55,7 +57,7 @@
             groupBox1.Controls.Add(btnBuku);
             groupBox1.Location = new Point(3, -2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(182, 451);
+            groupBox1.Size = new Size(182, 601);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
@@ -177,6 +179,16 @@
             label2.TabIndex = 0;
             label2.Text = "SELAMAT DATANG";
             // 
+            // btnLogOut
+            // 
+            btnLogOut.Location = new Point(30, 549);
+            btnLogOut.Name = "btnLogOut";
+            btnLogOut.Size = new Size(112, 34);
+            btnLogOut.TabIndex = 6;
+            btnLogOut.Text = "Log Out";
+            btnLogOut.UseVisualStyleBackColor = true;
+            btnLogOut.Click += this.btnLogOut_Click_1;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -210,5 +222,6 @@
         private Label label5;
         private Label label3;
         private Label lblNama;
+        private Button btnLogOut;
     }
 }

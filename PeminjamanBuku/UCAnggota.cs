@@ -27,12 +27,44 @@ namespace PeminjamanBuku
             {
                 dgvAnggota.DataSource = await context.Anggotas.Select(a => new
                 {
+                    AnggotaId = a.AnggotaId, 
                     Nisn = a.Nisn,
                     NamaAnggota = a.NamaAnggota,
                     JenisKelamin = a.JenisKelamin,
                     Kelas = a.Kelas,
                 }).ToListAsync();
+
+                if (dgvAnggota.Columns["AnggotaId"] != null)
+                {
+                    dgvAnggota.Columns["AnggotaId"].Visible = false;
+                }
             }
+        }
+
+        private bool validate()
+        {
+            errorProviderAnggota.Clear();
+            if (string.IsNullOrWhiteSpace(txtNisn.Text))
+            {
+                errorProviderAnggota.SetError(txtNisn,"NISN tidak boleh kosong");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtNamaAnggota.Text))
+            {
+                errorProviderAnggota.SetError(txtNamaAnggota,"Nama Anggota tidak boleh kosong");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(cbJenisKelamin.Text))
+            {
+                errorProviderAnggota.SetError(cbJenisKelamin,"Jenis Kelamin tidak boleh kosong");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtKelas.Text))
+            {
+                errorProviderAnggota.SetError(txtKelas,"Kelas tidak boleh kosong");
+                return false;
+            }
+            return true;
         }
 
         private void clear()
@@ -52,6 +84,14 @@ namespace PeminjamanBuku
 
         private async void btnSimpan_Click(object sender, EventArgs e)
         {
+            if (!validate()) return;
+
+            if (cbJenisKelamin.SelectedIndex == -1)
+            {
+                MessageBox.Show("Pilih jenis kelamin terlebih dahulu!", "Peringatan");
+                return;
+            }
+
             using (var context = new AppDbContext())
             {
                 var anggota = new Anggota
@@ -87,6 +127,8 @@ namespace PeminjamanBuku
 
         private async void btnUpdate_Click(object sender, EventArgs e)
         {
+            if (!validate()) return;
+
             using (var context = new AppDbContext())
             {
                 if (dgvAnggota.CurrentRow == null)
@@ -110,8 +152,13 @@ namespace PeminjamanBuku
 
                     if (result == DialogResult.Yes)
                     {
+                        anggota.Nisn = txtNisn.Text;
+                        anggota.NamaAnggota = txtNamaAnggota.Text;
+                        anggota.JenisKelamin = (JenisKelamin)(cbJenisKelamin.SelectedIndex + 1);
+                        anggota.Kelas = txtKelas.Text;
+
                         await context.SaveChangesAsync();
-                        MessageBox.Show("data berhasil di update");
+                        MessageBox.Show("Data berhasil di-update");
                         await loadAnggota();
                         clear();
                     }
@@ -125,6 +172,8 @@ namespace PeminjamanBuku
 
         private async void btnHapus_Click(object sender, EventArgs e)
         {
+            if (!validate()) return;
+
             using (var context = new AppDbContext())
             {
                 if (dgvAnggota.CurrentRow == null)

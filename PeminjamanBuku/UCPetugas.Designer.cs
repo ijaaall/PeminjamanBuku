@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             label1 = new Label();
             label2 = new Label();
             txtNamaPetugas = new TextBox();
@@ -42,7 +43,9 @@
             btnBatal = new Button();
             btnHapus = new Button();
             btnUpdate = new Button();
+            errorProviderPetugas = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)dgvPetugas).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderPetugas).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -170,6 +173,10 @@
             btnUpdate.UseVisualStyleBackColor = true;
             btnUpdate.Click += btnUpdate_Click;
             // 
+            // errorProviderPetugas
+            // 
+            errorProviderPetugas.ContainerControl = this;
+            // 
             // UCPetugas
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -192,6 +199,7 @@
             Size = new Size(971, 422);
             Load += UCPetugas_Load;
             ((System.ComponentModel.ISupportInitialize)dgvPetugas).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderPetugas).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -212,5 +220,6 @@
         private Button btnBatal;
         private Button btnHapus;
         private Button btnUpdate;
+        private ErrorProvider errorProviderPetugas;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             label1 = new Label();
             label2 = new Label();
             txtNisn = new TextBox();
@@ -42,7 +43,9 @@
             btnBatal = new Button();
             btnHapus = new Button();
             btnUpdate = new Button();
+            errorProviderAnggota = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)dgvAnggota).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderAnggota).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -174,6 +177,10 @@
             btnUpdate.UseVisualStyleBackColor = true;
             btnUpdate.Click += btnUpdate_Click;
             // 
+            // errorProviderAnggota
+            // 
+            errorProviderAnggota.ContainerControl = this;
+            // 
             // UCAnggota
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -196,6 +203,7 @@
             Size = new Size(1033, 426);
             Load += UCAnggota_Load;
             ((System.ComponentModel.ISupportInitialize)dgvAnggota).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderAnggota).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -216,5 +224,6 @@
         private Button btnBatal;
         private Button btnHapus;
         private Button btnUpdate;
+        private ErrorProvider errorProviderAnggota;
     }
 }

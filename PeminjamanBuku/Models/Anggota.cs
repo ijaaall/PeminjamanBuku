@@ -10,7 +10,7 @@ namespace PeminjamanBuku.Models
     public enum JenisKelamin
     { 
         LakiLaki = 1,
-        Perempuan = 2
+        Perempuan = 2,
     }
 
     public class Anggota
